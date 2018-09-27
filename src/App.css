@@ -1,0 +1,87 @@
+.survey-app {
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  font-family: Verdana,sans-serif;
+}
+.loader {
+  text-align: center;
+  margin-top: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 800;
+    margin: 10px 0;
+}
+form  {
+  padding: 20px 40px;
+  color: #000;
+  background-color: #f1f1f1;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+}
+form div {
+	margin: 20px 0;
+}
+input, select {
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  overflow: visible;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.checkbox-label {
+  display: block;
+  margin: 15px 10px;
+}
+.checkbox-label input{
+  margin-right: 6px;
+  width: 8px;
+  display: inline-block;
+}
+input[type=submit] {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  background-color: #2196F3;
+  display: block;
+  width: 100%;
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0),0 4px 20px 0 rgba(0,0,0,0);
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+input[type=submit]:hover {
+  box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2),0 4px 20px 0 rgba(0,0,0,0.19);
+  cursor: pointer;
+  
+}
+.error-validate {
+  margin-top: 40px;
+  color: red;
+}
+.list-results {
+  margin: 40px 0;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+  background: none;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+ul li:hover {
+  background: #ccc;
+}
+ul li p span {
+  font-weight: bold;
+}

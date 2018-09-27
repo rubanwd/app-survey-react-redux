@@ -1,0 +1,19 @@
+[
+    {
+        "id": "04abc470-1839-4771-bc90-8985fbbbbdd8",
+        "name": "John Doe",
+        "home_town": "Manchester",
+        "favorite_tools": [
+            "WebStorm",
+            "Sketch"
+        ]
+    },
+    {
+        "id": "851ef07b-8ba2-442b-bbfb-879c25f3b218",
+        "name": "Andrew White",
+        "home_town": "Liverpool",
+        "favorite_tools": [
+            "Atom"
+        ]
+    }
+]
